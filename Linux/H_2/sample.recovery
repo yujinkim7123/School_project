@@ -1,0 +1,62 @@
+1. Recovered Information
+Total Items: 8
+
+[0]
+name: MR. Kim
+age: 19
+height: 192
+point: 201
+class: A (<-- C)
+
+[1]
+name: Frederic Chopin
+age: 30
+height: 180
+point: 150
+class: A (<-- A)
+
+[2]
+name: G-Dragon
+age: 32
+height: 172
+point: 132
+class: B (<-- B)
+
+[3]
+name: Childish Gambino
+age: 37
+height: 175
+point: 94
+class: B (<-- A)
+
+[4]
+name: [unnamed]
+age: 17
+height: 165
+point: 53
+class: C (<-- A)
+
+[5]
+name: may-the-force-be-with-you
+age: 998
+height: 205
+point: 32
+class: C (<-- F)
+
+[6]
+name: IU
+age: 26
+height: 155
+point: -65
+class: F (<-- C)
+
+[7]
+name: galaxy express 999
+age: 50
+height: 130
+point: -98
+class: F (<-- F)
+
+2. Statistics
+avg. age = 151.12
+avg. height = 171.75
