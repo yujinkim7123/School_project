@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+void main() {
+	
+char str1[100], str2[100];
+	int i;
+
+	
+printf("1st string: ");
+	
+scanf("%s", str1);
+
+	
+printf("2nd string: ");
+	
+scanf("%s", str2);
+
+	
+for (i=0; str1[i] != '\0' && str2[i] != '\0'; i++) 
+{
+		if (str1[i] != str2[i]) 
+{
+			
+printf("Two strings are different!\n");
+			
+return;
+		}
+	}
+
+	
+if (str1[i] == str2[i])
+		
+printf("Two strings are the same\n");
+	
+else
+		
+printf("Two strings are different\n");
+}
+
