@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href="mystyle8.css">
+<script>
+var computerNumber = 0;
+var nGuesses = 0;
+
+function random(min, max) {
+	  var ranNum = Math.floor(Math.random()*(max-min+1)) + min;
+	  computerNumber = ranNum;
+	  nGuesses = 0;
+	  return;
+	}
+
+function guess(){
+	var result ="";
+	var number = parseInt(document.getElementById("user").value);
+	nGuesses++;
+	if(number == computerNumber) result = "성공입니다.!";
+	else if(number < computerNumber) result = "랜덤 수보다 낮습니다.";
+	else result ="랜덤 수보다 높습니다.";
+	
+	document.getElementById("result").value = result;
+	document.getElementById("guesses").value = nGuesses;
+    return true;
+}
+</script>
+</head>
+<body class ="game">
+<img id ="back1" src="gamephoto.png">
+<div>
+<em>숫자 맞추기 게임</em><br><br>
+<p>본 게임은 1~100 범위에서 숫자를 맞추는 게임입니다.(start를 누르고 시작하세요!!)</p><br>
+<form>
+<strong>숫자:</strong>
+<input type="text" id ="user" size="10">
+<input type="button" value="확인" onclick="guess()"><br><br>
+<strong>추측횟수:</strong>
+<input type="text" id="guesses" size="10"><br>
+<strong>결과 :</strong>
+<input type="text" id="result" size="30"><br><br><br>
+<input id ="button" type="reset" value="start & reset" onclick="random(1,100)">
+</form>
+</div>
+
+</body>
+</html>

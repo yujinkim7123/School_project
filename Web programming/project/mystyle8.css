@@ -1,0 +1,553 @@
+@font-face {
+	font-family: "HoonPinkpungchaR";
+	src: url("HoonPinkpungchaR.otf");
+}
+
+@font-face {
+	font-family: "HoonWhitecatR";
+	src: url("HoonWhitecatR.ttf");
+}
+
+body {
+	font-family: "HoonPinkpungchaR", HoonWhitecatR, Times, serif;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-position: center fixed;
+	background-size: cover;
+}
+
+#back2{	
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 1.0;
+	}
+	
+#back {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+}
+
+#back1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.Membership {
+
+	background-image: url('BACK2.jpg');
+}
+
+.about {
+	background-image: url('flower.jpg');
+	background-position: 80% 300px;
+	background-size: 500px 500px;
+}
+
+.Famoussaying img {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+
+h1, h2 {
+	color: #ff80c0;
+	font-size: 50px;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-shadow: 20px 10px 10px #000;
+	text-align: center;
+}
+
+.poet {
+	column-count: 2;
+}
+
+.check1 {
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 17px;
+}
+
+.check1 em {
+	color: red;
+}
+
+body strong, #check2, h4 {
+	font-size: 25px;
+	color: #160798;
+	font-weight: bold;
+}
+
+.check8 em {
+	margin: 0px;
+	padding: 0px;
+	font-size: 40px;
+	background-color: #bda6e3;
+}
+
+.check8 {
+	width: 8%;
+	text-align: right;
+}
+
+.check7 {
+	list-style-type: circle;
+	font-size: 30px;
+}
+
+body>h3 {
+	font-size: 30px;
+	color: #650000;
+	font-weight: bold;
+	border: 2px solid #650000;
+	border-radius: 25px;
+}
+
+#check3 {
+	text-align: center;
+}
+
+#check4 {
+	font-size: 35px;
+	color: #8282db;
+}
+
+a:link {
+	color: #ff80ff;
+}
+
+a:visited {
+	clor: #ff0000;
+}
+
+a:hover {
+	color: #c0c0c0;
+	font-size: 150%;
+}
+
+.check5 {
+	list-style: none;
+	text-align: center;
+	border-top: 2px solid #fb8cf5;
+	border-bottom: 2px solid #fb8cf5;
+	padding: 10px 0;
+}
+
+.check5  li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px;
+	letter-spacing: 10px;
+}
+
+.check5  li a {
+	text-decoration: none;
+	color: black;
+}
+
+.check5  li a:hover {
+	text-decoration: underline;
+}
+
+.check6 {
+	border: 2px groove white;
+	border-collapse: collapse;
+	width: 30%;
+}
+
+.check6 td {
+	text-align: center;
+	border: 3px groove #ddd1f1;
+	color: black;
+	background-color: #f0f0fb;
+}
+
+.check6 caption {
+	font-size: 2.0em;
+	background-color: #bda6e3;
+	width: 30%;
+}
+
+#img {
+	width: 20%;
+}
+
+
+.Famoussaying  p {
+	position: relative;
+	left: 600px;
+	top: 60px;
+	font-family: sans-serif;
+	color: #fffbfb;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.Famoussaying  strong {
+	position: relative;
+	left: 600px;
+	top: 60px;
+	font-size: 30pt;
+	color: #ceebf7;
+	font-style: italic;
+}
+
+.gallery p {
+	font-size: 30pt;
+	color: #ff00ff;
+}
+
+.home em {
+	font-size: 30pt;
+}
+
+#herf {
+	position: absolute;
+	top: 400px;
+	left: 950px;
+	text-align: center;
+}
+
+#herf1 {
+	text-align: center;
+	border-radius: 50px;
+	border: 3px solid #edafdc;
+	padding: 80px;
+	font-size: 30px;
+}
+
+#herf2{
+	text-align: center;
+	border-radius: 50px;
+	border: 3px solid #edafdc;
+	font-size: 30px;
+	padding: 80px;
+	font-size: 30px;
+}
+
+#herf a:link {
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#herf a:visited {
+	clor: #ff0000;
+}
+
+#herf a:hover {
+	color: #c0c0c0;
+	font-size: 40px;
+}
+
+.gallery #zip img {
+	opacity: 0.4;
+	width: 300px;
+	height: 270px;
+	margin: 5px;
+	transition: border-radius 3s;
+}
+
+.gallery #zip img:hover {
+	opacity: 1.0;
+	border: 5px solid #ff0080;
+	border-radius: 100px;
+}
+
+.drop {
+	width: 0;
+	height: 0;
+	border: 0.5px solid #d0d6f4;
+	border-top-width: 35px;
+	opacity: 0.23;
+	margin-top: -120px;
+	transition: transform 1.2s;
+	transform-origin: 50% 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.rain1 {
+	left: 10%;
+	top: -50px;
+	animation: rain 1.1s linear 2.7s infinite;
+}
+
+.rain2 {
+	left: 15%;
+	top: -50px;
+	animation: rain .9s linear 1s infinite;
+}
+
+.rain3 {
+	animation: rain .9s linear 6.2s infinite;
+	left: 20%;
+	top: -50px;
+}
+
+.rain4 {
+	animation: rain .8s linear 4.3s infinite;
+	left: 25%;
+	top: -50px;
+}
+
+.rain5 {
+	animation: rain 1s linear 5.5s infinite;
+	left: 30%;
+	top: -50px;
+}
+
+.rain6 {
+	animation: rain .9s linear 5.9s infinite;
+	left: 35%;
+	top: -50px;
+}
+
+.rain7 {
+	animation: rain 1.3s linear 6.5s infinite;
+	left: 40%;
+	top: -50px;
+}
+
+.rain8 {
+	animation: rain .9s linear 0.3s infinite;
+	left: 45%;
+	top: -50px;
+}
+
+.rain9 {
+	animation: rain .8s linear 1.5s infinite;
+	left: 50%;
+	top: -50px;
+}
+
+.rain10 {
+	animation: rain 1.2s linear 1.3s infinite;
+	left: 55%;
+	top: -50px;
+}
+
+.rain11 {
+	left: 60%;
+	top: -50px;
+	animation: rain 1.1s linear 2.7s infinite;
+}
+
+.rain12 {
+	left: 65%;
+	top: -50px;
+	animation: rain .9s linear 1s infinite;
+}
+
+.rain13 {
+	animation: rain .9s linear 6.2s infinite;
+	left: 70%;
+	top: -50px;
+}
+
+.rain14 {
+	animation: rain .8s linear 4.3s infinite;
+	left: 75%;
+	top: -50px;
+}
+
+.rain15 {
+	animation: rain 1s linear 5.0s infinite;
+	left: 80%;
+	top: -50px;
+}
+
+.rain16 {
+	animation: rain .9s linear 5.9s infinite;
+	left: 85%;
+	top: -50px;
+}
+
+.rain17 {
+	animation: rain 1.3s linear 6.5s infinite;
+	left: 90%;
+	top: -50px;
+}
+
+.rain18 {
+	animation: rain .9s linear 0.3s infinite;
+	left: 95%;
+	top: -50px;
+}
+
+.rain19 {
+	animation: rain .8s linear 1.5s infinite;
+	left: 97%;
+	top: -50px;
+}
+
+.rain20 {
+	animation: rain 1.2s linear 1.3s infinite;
+	left: 88%;
+	top: -50px;
+}
+
+.rain21 {
+	left: 10%;
+	top: -50px;
+	animation: rain 1.1s linear 2.8s infinite;
+}
+
+.rain22 {
+	left: 98%;
+	top: -50px;
+	animation: rain .9s linear 1s infinite;
+}
+
+.rain23 {
+	animation: rain .9s linear 6.5s infinite;
+	left: 5%;
+	top: -50px;
+}
+
+.rain24 {
+	animation: rain .8s linear 4.5s infinite;
+	left: 18%;
+	top: -50px;
+}
+
+.rain25 {
+	animation: rain 1s linear 5.1s infinite;
+	left: 23%;
+	top: -50px;
+}
+
+.rain26 {
+	animation: rain .9s linear 5.3s infinite;
+	left: 93%;
+	top: -50px;
+}
+
+.rain27 {
+	animation: rain 1.3s linear 6.0s infinite;
+	left: 77%;
+	top: -50px;
+}
+
+.rain28 {
+	animation: rain .9s linear 0.2s infinite;
+	left: 68%;
+	top: -50px;
+}
+
+.rain29 {
+	animation: rain .8s linear 1.3s infinite;
+	left: 33%;
+	top: -50px;
+}
+
+.rain30 {
+	animation: rain 1.2s linear 1.0s infinite;
+	left: 42%;
+	top: -50px;
+}
+
+@keyframes rain {
+	from {top: -50px;}
+    to {top: 800px;}
+}
+.game div {
+	position: absolute;
+	left: 35%;
+	top: 20%;
+}
+
+.game em {
+	font-size: 50px;
+}
+
+.game #button {
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 8px;
+}
+
+#button:hover {
+	background-color: #bfe0f0;
+}
+
+#button:active {
+	background-color: #87c5e2;
+}
+
+.need header {
+	text-align: center;
+	font-size: 30pt;
+}
+
+.need nav {
+	text-align: center;
+	font-size: 20pt;
+}
+
+.need footer {
+	padding: 50px;
+	float: left;
+}
+
+.need footer {
+	font-size: 20pt;
+	text-align: center;
+}
+
+#left {
+	font-size: 20pt;
+	float: left;
+	padding: 50px;
+	text-align: center;
+}
+
+#left em, #right caption, .need footer em {
+	font-size: 30pt;
+	text-align: center;
+	font-style: italic;
+	color: #8080ff;
+}
+
+#right {
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	font-size: 20pt;
+	padding: 50px;
+	text-align: center;
+	font-size: 20pt;
+}
+
+.need div {
+	position: relative;
+	left: 20%;
+}
+
+#canvas{
+		
+	position: absolute;
+	top: 10%;
+	left: 75%;
+	padding: 50px;
+	font-size: 20pt;
+	
+}

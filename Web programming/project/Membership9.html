@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my homepage</title>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="mystyle8.css">
+<script src="jquery-3.4.1.min.js"></script>
+<script src="move9.js"></script>
+<script>
+$(document).ready(function () {
+	
+	 $("#su").focus(function () {
+       $(this).css("border","solid 3px red");
+   });
+	
+  $("input").focus(function () {
+      $(this).css("background-color", "green");
+  });
+          $("input").blur(function () {
+                $(this).css("background-color", "white");
+              });        
+         });</script>
+         
+         
+</head>
+<body class ="Membership">
+
+ <ul class = "check5">
+      <li><a href="myhomepage9.html" target ="_self">Home</a></li>
+      <li><a href="#">Membership</a></li>
+      <li><a href="about9.html" target ="_self">About</a></li>
+      <li><a href="Famoussaying9.html">poem</a></li>
+      <li><a href="Gallery9.html">Gallery</a></li>
+ </ul>
+
+<h2>회원 가입</h2>
+<p>신상 정보를 입력해주세요</p>
+<form>
+<fieldset>
+<p>
+이름:
+<input type="text" name="name"><br  />
+주소:
+<input type="text" name="address" size=30><br>
+email:
+<input type="text" id='eml'/><br>
+전화번호:
+<input type="text" id ='phone'/><br>
+<label for="female">Female</label>
+<input type="radio" name="gender" value="Female"><br> 
+<label for="male">Male</label>
+<input type="radio" name="gender" value="Male"><br>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>카드 정보 입력</legend>
+<ol>
+<li>
+<fieldset>
+<legend>카드 타입</legend>
+<ol>
+<li><input type="radio" name="card" value="VISA">VISA</li>
+<li><input type="radio" name="card" value="AmEx">AmEx</li>
+<li><input type="radio" name="card" value="Mastercard">Mastercard</li>
+</ol>
+</fieldset>
+
+</li>
+<li> 카드 번호 <input type="text" id = "card1" style="width:100px" min="0" max="300" step="1" name="card number" value=""></li>  
+<li> CRC 번호 <input type="text" id = "card2" style="width:100px" min="0" max="300" step="1" name="CRC number" value=""></li>
+<li> 카드 소유자 이름 <input type="text"  name="card name" placeholder="카드 상의 이름"></li>
+</ol>
+</fieldset>
+
+<fieldset>
+<input id = "su" type="submit" value="Send" onclick = "check()">
+<input type="reset">
+</fieldset>
+</form>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+</body>
+</html>

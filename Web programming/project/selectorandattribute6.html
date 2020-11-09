@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my homepage</title>
+<link type="text/css" rel ="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<audio autoplay controls>
+      <source src="가을 아침_아이유 (IU).mp3" type="audio/mp3">
+      <source src="가을 아침_아이유 (IU).wav" type="audio/wav">
+      <source src="가을 아침_아이유 (IU).ogg" type="audio/ogg">
+</audio>
+<p id = check2>아이유-가을아침</p>
+<h2>회원 가입</h2>
+<p>신상 정보를 입력해주세요</p>
+<form>
+<fieldset>
+<p>
+이름:
+<input type="text" name="name" ><br  />
+주소:
+<input type="text" name="address" size=30><br>
+email:
+<input type="email" name="email" required><br>
+전화번호:
+<input type="tel" name="tel" required 
+ pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+ title="###-####-####"><br>
+<label for="female">Female</label>
+<input type="radio" name="gender" value="Female"><br>
+<label for="male">Male</label>
+<input type="radio" name="gender" value="Male"><br>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>카드 정보 입력</legend>
+<ol>
+<li>
+<fieldset>
+<legend>카드 타입</legend>
+<ol>
+<li><input type="radio" name="card" value="VISA">VISA</li>
+<li><input type="radio" name="card" value="AmEx">AmEx</li>
+<li><input type="radio" name="card" value="Mastercard">Mastercard</li>
+</ol>
+</fieldset>
+
+</li>
+<li> 카드 번호 <input type="number" style="width:100px" min="0" max="300" step="1" name="card number" value=""></li>  
+<li> CRC 번호 <input type="number" style="width:100px" min="0" max="300" step="1" name="CRC number" value=""></li>
+<li> 카드 소유자 이름 <input type="text" name="card name" placeholder="카드 상의 이름"></li>
+</ol>
+</fieldset>
+
+<fieldset>
+<input type="submit" value="Send">
+<input type="reset">
+</fieldset>
+</form>
+<br><br><hr />
+
+
+<h1>self-introduction</h1>
+<p>이 홈페이지는 숙제로 인해 생긴 페이지입니다.
+  <br>위에서 회원가입을 진행해 주세요</p>
+  
+<table border= "1">
+<tr>
+<td rowspan = "4">
+<img src="photo.jpg" width = "150" height = "200" alt="NOT"/></td>
+<td> 이름 </td> 
+<td> 김유진 </td>
+</tr>
+
+<tr>
+<td>나이</td>
+<td>22</td>
+</tr>
+
+<tr>
+<td>재학 중 학교</td>
+<td>순천향대학교</td>
+</tr>
+</table>
+
+<p id = "check4" >혀를 다스리는 것은 나이지만,내뱉어진 말은 거꾸로 나를 다스린다.</p>
+
+<h4>출신 학교</h4>
+<p>초등학교 : 진산 초등학교<br>
+중학교 : 진산 중학교<br>
+고등학교 : 영선고등학교</P>
+	  	  
+	  
+<h3>내 인생에서 즐거운 것</h3>
+
+<p>무엇을 좋아했고 어떤 것이 있는지 적어습니다.
+<br>위에서 부터 시간 순서대로 나열했습니다.</p>
+
+<ol>
+
+<li>달리기</li>
+
+<li>소설책</li>
+
+<li>명언 찾기 
+<p class="check1">
+무엇을 선택하느냐보다 선택 이후의 행동이 중요하다.<br>
+나오는대로 다 말하지 마라 체로 거르듯 곱게 말해도 불량품이 나오기 마련이다.<br>
+함부로 말하지말고 한번 말한 것은 책임을 져야한다.<br>
+<em>- 국민  MC 유재석-</em>
+</p>
+
+<li>음악 감상
+<p>
+ 아이유-rain drop, 이름에게<br>
+<a href="https://www.youtube.com/watch?v=lfcaABzPqw8" target ="_blank">
+<em>링크를 클릭하시면 음악이 있는 유튜브로 이동합니다.</em></a>
+</p>
+</li>
+
+<li>영화 감상
+<p><video width="300" height="200"
+src="FROZEN 2 Full Movie Trailer 2019.mp4" controls></video><br>
+<strong>추천하는 영화(겨울왕국2)</strong></p>
+</li>
+
+<li><br><img src="photo2.png" width = "100" height = "100" alt="NOT"/>
+화학 - 분자운동<br><a href ="#section1">참고사항(단어를 모르시면 누르세요)</a></li>
+
+</ol>
+<br><br>
+
+
+<h3 id = check3>가장 의미있던 것</h3>
+<ul class = "poet">
+<li>죽고싶지만 떡볶이는 먹고싶어(백세희,에세이) 책<br>
+<img src="photo3.PNG" width = "100" height = "100" alt="NOT"/>
+</li>
+<li>
+선선한 바람 - 상당히 기분이 좋아진다.<br>
+<img src="photo4.jpg" width = "100" height = "100" alt="NOT"/>
+</li>
+</ul>
+
+<hr />
+<a id ="section1"></a>
+<pre><strong>분자운동이란</strong> 
+ 물체를 구성하는 분자들이 온도에 따른 운동 에너지를 갖고 운동하는 것을 말한다.</pre>
+ 
+</body>
+</html>
