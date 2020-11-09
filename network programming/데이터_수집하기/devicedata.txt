@@ -1,0 +1,14 @@
+Wed Apr 29 18:39:25 2020: Device1: Temp=40, Humid=0, lilum=75
+Wed Apr 29 18:39:26 2020: Device2: Heartbeat=63, Steps=2460, Cal=3355
+Wed Apr 29 18:39:26 2020: Device1: Temp=4, Humid=40, lilum=143
+Wed Apr 29 18:39:27 2020: Device1: Temp=7, Humid=32, lilum=147
+Wed Apr 29 18:39:28 2020: Device2: Heartbeat=126, Steps=4500, Cal=3726
+Wed Apr 29 18:39:28 2020: Device2: Heartbeat=126, Steps=3639, Cal=2484
+Wed Apr 29 18:39:29 2020: Device1: Temp=40, Humid=85, lilum=150
+Wed Apr 29 18:39:29 2020: Device1: Temp=35, Humid=51, lilum=96
+Tue May  5 15:53:07 2020: Device1: Temp=19, Humid=92, lilum=90
+Tue May  5 15:53:27 2020: Device2: Heartbeat=140, Steps=3256, Cal=3476
+Tue May  5 15:53:29 2020: Device1: Temp=16, Humid=47, lilum=102
+Tue May  5 15:53:30 2020: Device2: Heartbeat=98, Steps=2395, Cal=3226
+Tue May  5 15:53:31 2020: Device2: Heartbeat=95, Steps=4412, Cal=3173
+Tue May  5 15:53:32 2020: Device1: Temp=39, Humid=54, lilum=133
